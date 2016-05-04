@@ -1,0 +1,164 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> >西安软件服务外包学院</title>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="paper.js"></script>
+    <link href="paper.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<form id="myForm" class="form-horizontal">
+    <br/>
+    <p>西安软件 服务外包学院</p>
+    <hr/>
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10"><h2 class="myHeight text-center bg-primary">统一建模语言理论测试</h2></div>
+    </div>
+    <br/>
+    <div class=" form-group ">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="myClass" placeholder="请输入班级">
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="mySno" placeholder="请输入学号">
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="myName" placeholder="请输入姓名">
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-3">考试科目:<u><b>统一建模语言UML</b></u></div>
+            <label class="col-sm-2"> 时间:<u><b>100分钟</b></u></label>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-2">
+                <form class="bs-example bs-example-form" role="form">
+                    <div class="input-group">
+                        <span class="input-group-addon">得分</span>
+                        <input type="text" class="form-control" id="result"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <br/>
+        <div class="col-sm-1"></div>
+        <div class=" col-sm-10 well well transparent">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3"><h3>一. 填空题(每空5分)</h3></div>
+                </div>
+                <div class="col-sm-3"></div>
+                1.UML的中文全称是: <input type="text" id="answer1" class="text-1"/>.<br/>
+                <div class="col-sm-3"></div>
+                2.对象最突出的特征是:<input type="text" id="answer2" class="text-1"/> ,
+                <input type="text" id="answer3" class="text-1"/>,
+                <input type="text" id="answer4" class="text-1"/>
+            </div>
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-4"><h3>二. 选择题(单选题,每道题5分)</h3></div>
+            </div>
+            <div class="para" id="rf">
+                <form name="rd">
+                    <div class="col-sm-3"></div>
+                    <p> 1. UML与软件工程的关系是:<br/></p>
+                    <div class="col-sm-3"></div>
+                    <input type="radio" name="one"/>
+                    (A) UML就是软件工程 <br/>
+                    <div class="col-sm-3"></div>
+                    <input type="radio" id="element-1-1" name="one"/>
+                    (B)UML参与到软件到软件工程中软件开发过程的几个阶段 <br/>
+                    <div class="col-sm-3"></div>
+                    <input type="radio" name="one"/>
+                    (C) UML与软件工程无关<br/>
+                    <div class="col-sm-3"></div>
+                    <input type="radio" name="one"/>
+                    (D)UML是软件工的一部分<br/>
+                </form>
+                <div class="col-sm-3"></div>
+                <p> 2.Java 语言支持:<br/></p>
+                <div class="col-sm-3"></div>
+                <input type="radio" name="two"/>
+                (A) 单继承 <br/>
+                <div class="col-sm-3"></div>
+                <input type="radio" name="two" value="(B) 多继承"/>
+                (B)多继承 <br/>
+                <div class="col-sm-3"></div>
+                <input type="radio" id="element-1-2" name="two"/>
+                (C)单继承和多继承都支持</label><br/>
+                <div class="col-sm-3"></div>
+                <input type="radio" name="two"/>
+                (D)单继承和多继承都不支持<br/>
+            </div>
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-4"><h3>三.多选题(多选题,每道题5分) </h3></div>
+            </div>
+            <div class="para">
+                <div class="col-sm-3"></div>
+                <p> 1.用例的粒度分为以下哪三种。<br/></p>
+                <div class="col-sm-3"></div>
+                <input type="checkbox" id="element-2-1-1" name="three"/>(A) 概述级、<br/>
+                <div class="col-sm-3"></div>
+                <input type="checkbox" id="element-2-1-2" name="three"/> (B) 需求级<br/>
+                <div class="col-sm-3"></div>
+                <input type="checkbox" name="three"/> (C) 用户目标级、<br/>
+                <div class="col-sm-3"></div>
+                <input type="checkbox" id="element-2-1-3" name="three"/>(D) 子功能级<br/><br/>
+                <div class="col-sm-3"></div>
+                <p>2 . 类图由以下哪三部分组成。<br/></p>
+                <div class="col-sm-3"></div>
+                <input type="checkbox" id="element-2-2-1" name="four"/> (A) 称(Name)<br/>
+                <div class="col-sm-3"></div>
+                <input type="checkbox" id="element-2-2-2" name="four"/>(B)属性(Attribute)<br/>
+                <div class="col-sm-3"></div>
+                <input type="checkbox" id="element-2-2-3" name="four"/>(C)操作(Operation)<br/>
+                <div class="col-sm-3"></div>
+                <input type="checkbox" name="four"/>(D)方法(Function)<br/>
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3"><h3>四. 判断题 </h3></div>
+                </div>
+                <div class="col-sm-3"></div>
+                <p>1. 用例图只是用于和客户交流和沟通的,用于确定需求。 </p>
+                <div class="col-sm-3"></div>
+                <input type="radio" name="choose"/>是
+                <input type="radio" id="element-3-1" name="choose"/>否 <br/><br/>
+                <div class="col-sm-3"></div>
+                <p>2. 在状态图中,终止状态在一个状态图中允许有任意多个。</p>
+                <div class="col-sm-3"></div>
+                <input type="radio" id="element-3-2" name="choose1"/>是
+                <input type="radio" name="choose1"/>否 <br/>
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-5"><h3>五 、简 答 题 ( 每 题 4 分 , 共 20 分 )</h3></div>
+                </div>
+                <div class="col-sm-3"></div>
+                <p>1. 简述什么是模型以及模型的表现形式?</p><br/>
+                <div class="col-sm-3"></div>
+                <textarea rows="8" cols="50"></textarea>
+                <br/>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-2">
+            <button onclick="check();return false;" class="btn btn-success">提交答案</button>
+        </div>
+        <div class="col-sm-3">
+            <input type="button" onclick="formReset()" class="btn btn-danger" value="重置">
+        </div>
+    </div>
+</form>
+</body>
+</html>

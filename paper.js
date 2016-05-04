@@ -62,6 +62,7 @@ function check() {
             sum += 5;
         }
         document.getElementById("result").value = sum;
+
     }
 }
 
@@ -69,4 +70,3 @@ function formReset() {
     document.getElementById("myForm").reset();
 
 }
-

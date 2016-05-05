@@ -2,12 +2,12 @@
 <head>
     <meta charset="UTF-8">
     <title> >西安软件服务外包学院</title>
-    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">
     <script src="paper.js"></script>
     <link href="paper.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<form id="myForm" class="form-horizontal">
+<form id="myForm" class="">
     <br/>
     <p>西安软件 服务外包学院</p>
     <hr/>
@@ -39,12 +39,12 @@
             <label class="col-sm-2"> 时间:<u><b>100分钟</b></u></label>
             <div class="col-sm-1"></div>
             <div class="col-sm-2">
-                <form class="bs-example bs-example-form" role="form">
+                <div class="bs-example bs-example-form" role="form">
                     <div class="input-group">
                         <span class="input-group-addon">得分</span>
                         <input type="text" class="form-control" id="result"/>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
         <br/>
@@ -67,22 +67,20 @@
                 <div class="col-sm-4"><h3>二. 选择题(单选题,每道题5分)</h3></div>
             </div>
             <div class="para" id="rf">
-                <form name="rd">
-                    <div class="col-sm-3"></div>
-                    <p> 1. UML与软件工程的关系是:<br/></p>
-                    <div class="col-sm-3"></div>
-                    <input type="radio" name="one"/>
-                    (A) UML就是软件工程 <br/>
-                    <div class="col-sm-3"></div>
-                    <input type="radio" id="element-1-1" name="one"/>
-                    (B)UML参与到软件到软件工程中软件开发过程的几个阶段 <br/>
-                    <div class="col-sm-3"></div>
-                    <input type="radio" name="one"/>
-                    (C) UML与软件工程无关<br/>
-                    <div class="col-sm-3"></div>
-                    <input type="radio" name="one"/>
-                    (D)UML是软件工的一部分<br/>
-                </form>
+                <div class="col-sm-3"></div>
+                <p> 1. UML与软件工程的关系是:<br/></p>
+                <div class="col-sm-3"></div>
+                <input type="radio" name="one"/>
+                (A) UML就是软件工程 <br/>
+                <div class="col-sm-3"></div>
+                <input type="radio" id="element-1-1" name="one"/>
+                (B)UML参与到软件到软件工程中软件开发过程的几个阶段 <br/>
+                <div class="col-sm-3"></div>
+                <input type="radio" name="one"/>
+                (C) UML与软件工程无关<br/>
+                <div class="col-sm-3"></div>
+                <input type="radio" name="one"/>
+                (D)UML是软件工的一部分<br/>
                 <div class="col-sm-3"></div>
                 <p> 2.Java 语言支持:<br/></p>
                 <div class="col-sm-3"></div>
@@ -156,7 +154,7 @@
             <button onclick="check();return false;" class="btn btn-success">提交答案</button>
         </div>
         <div class="col-sm-3">
-            <input type="button" onclick="formReset()" class="btn btn-danger" value="重置">
+            <button type="reset" class="btn btn-danger">重置</button>
         </div>
     </div>
 </form>

@@ -1,12 +1,14 @@
-.text-1{
-    border:0;
-    border-bottom:1px solid;
+.text-1 {
+    border: 0;
+    border-bottom: 1px solid;
 }
 
-#myForm input{  text-align:center;}
+#myForm input {
+    text-align: center;
+}
 
-.myHeight{
-    height:60px;
-    line-height:50px;
+.myHeight {
+    height: 60px;
+    line-height: 50px;
 
 }
